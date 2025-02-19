@@ -1,11 +1,11 @@
 package Praktikum01;
 
 class Dosen11 {
-    private String idDosen;
-    private String nama;
-    private boolean statusAktif;
-    private int tahunBergabung;
-    private String bidangKeahlian;
+    String idDosen;
+    String nama;
+    boolean statusAktif;
+    int tahunBergabung;
+    String bidangKeahlian;
     
     public Dosen11() {
         this.idDosen = "";

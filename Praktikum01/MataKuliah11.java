@@ -5,7 +5,6 @@ public class MataKuliah11 {
     String name;
     int sks;
     int jumlahJam;
-
     
     public MataKuliah11(String kodeMK, String name, int sks, int jumlahJam) {
         this.kodeMK = kodeMK;
@@ -13,7 +12,7 @@ public class MataKuliah11 {
         this.sks = sks;
         this.jumlahJam = jumlahJam;
     }
-
+  
     
     public void tampilInformasi() {
         System.out.println("Kode MK: " + kodeMK);
