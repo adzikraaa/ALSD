@@ -21,7 +21,9 @@ public class Mahasiswa11 {
         ipk = ipkBaru;
     }
 
-    void nilaiKinerja() { 
+    
+    @SuppressWarnings("unused")
+    String nilaiKinerja() { 
         if (ipk >= 3.5) {
             return "Kinerja sangat baik";
         } else if (ipk >= 3.0) {
