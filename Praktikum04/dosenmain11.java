@@ -14,6 +14,8 @@ public class dosenmain11 {
             System.out.println("3. Urutkan ASC (Bubble Sort)");
             System.out.println("4. Urutkan DSC (Selection Sort)");
             System.out.println("5. Urutkan ASC (Insertion Sort)");
+            System.out.println("6. Cari Nama Dengan SequentialSearch");
+            System.out.println("7. Cari Usia Dengan BinarySearch");
             System.out.println("0. Keluar");
             System.out.print("Pilih: ");
             pilihan = sc.nextInt();
@@ -48,6 +50,22 @@ public class dosenmain11 {
                     dataDosen.insertionSort();
                     System.out.println("Data diurutkan ASC (Insertion Sort).");
                     break;
+
+                case 6:
+                    System.out.print("Masukkan nama dosen yang dicari: ");
+                    String cariNama = sc.nextLine();
+                    System.out.println("Hasil Pencarian:");
+                    dataDosen.pencarianDataSequential(cariNama);
+                    break;
+
+                 case 7:
+                    System.out.print("Masukkan usia dosen yang dicari: ");
+                    int cariUsia = sc.nextInt();
+                    System.out.println("Hasil Pencarian:");
+                    dataDosen.pencarianDataBinary(cariUsia);
+                    break;
+                
+                
                 case 0:
                     System.out.println("Keluar...");
                     break;
