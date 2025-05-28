@@ -1,4 +1,4 @@
-
+package Praktikum09;
 import java.util.Scanner;
 
 public class MahasiswaDemo11 {
@@ -71,6 +71,8 @@ public class MahasiswaDemo11 {
                     System.out.println("Pilihan tidak valid!");
             }
         } while (pilih >= 1 && pilih <= 4);
+
+        sc.close();
         
     }
 }

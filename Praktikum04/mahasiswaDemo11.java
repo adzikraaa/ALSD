@@ -86,6 +86,8 @@ int pss2 = (int) posisi2;
 list.tampilPosisi(cari, pss2);
 list.tampilDataSearch(cari, pss2);
 
-    }
+sc.close();
+
+    } 
 }
 

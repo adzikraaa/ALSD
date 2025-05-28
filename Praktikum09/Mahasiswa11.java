@@ -1,3 +1,5 @@
+package Praktikum09;
+
 public class Mahasiswa11 {
     String nama, nim, kelas; 
     int nilai;

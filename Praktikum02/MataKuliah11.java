@@ -21,6 +21,7 @@ public class MataKuliah11 {
     
 }
     public void tambahData(Scanner input11) {
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan kode matakuliah: ");
         this.kode = input.nextLine();
@@ -41,7 +42,8 @@ public class MataKuliah11 {
         System.out.println("==================");
 
 
-        
+    
+      
     }
 
     

@@ -1,3 +1,5 @@
+package Praktikum09;
+
 public class Surat11 {
         String idSurat;
         String namaMahasiswa;

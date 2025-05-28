@@ -1,3 +1,5 @@
+package Praktikum09;
+
 public class StackKonversi11 {
     int[] tumpukanBiner;
     int size;
